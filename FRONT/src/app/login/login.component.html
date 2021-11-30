@@ -1,0 +1,17 @@
+    <div class="container border border-3 border-dark">
+        <h4 class="">Login</h4>
+        <form [formGroup]="loginForm" action="">
+            <div class="form-group p-2">
+              <input class="form-control border border-3 border-dark" placeholder="User" name="login" type="text"formControlName="login"/>
+            </div>
+          <div class="form-group p-2">
+            <input class="form-control border-3 border-dark" placeholder="Password" name="senha" type="password" formControlName="senha"/>
+          </div>
+          <div class="">
+            <button type="submit" (click)="onSubmit()" class="btn btn-lg btn-dark btn-block mt-2 mb-2">
+              Submit
+            </button>
+            <div *ngIf="loginError" class="text-uppercase text-decoration-underline text-warning p-2">Não autorizado</div>
+          </div>
+        </form>
+      </div>

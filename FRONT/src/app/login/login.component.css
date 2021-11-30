@@ -1,0 +1,13 @@
+.container {
+  margin-top: 10%;
+  max-width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2f86a6;
+}
+
+h4 {
+  font-size: 3rem;
+}
