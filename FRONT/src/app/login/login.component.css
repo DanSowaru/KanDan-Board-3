@@ -1,13 +1,28 @@
-.container {
-  margin-top: 10%;
-  max-width: 30%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #2f86a6;
+#login-denied {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  background-color: red;
+  border-color: white;
+  padding: 5px;
 }
 
-h4 {
-  font-size: 3rem;
+.modal-dialog {
+  margin-top: 20%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.modal-title {
+  color: white;
+  font-size: x-large;
+  padding: 5px;
 }

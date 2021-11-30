@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { COLUMNS } from 'src/app/models/columns';
+import { columns } from 'src/app/models/columns';
 import { APIService } from 'src/app/services/api.service';
 import { Router } from '@angular/router';
 import { Card } from 'src/app/models/card.model';
 
 
 @Component({
-  selector: 'app-holder',
-  templateUrl: './holder.component.html',
-  styleUrls: ['./holder.component.css'],
+  selector: 'app-board',
+  templateUrl: './board.component.html',
+  styleUrls: ['./board.component.css'],
 })
-export class HolderComponent implements OnInit {
-  columns = COLUMNS;
+export class BoardComponent implements OnInit {
+  columns = columns;
   logedIn!: boolean;
 
   getCardsFromURL() {

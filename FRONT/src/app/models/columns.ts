@@ -1,1 +1,1 @@
-export const COLUMNS = ['ToDo','Doing','Done'];
+export const columns = ['ToDo','Doing','Done'];

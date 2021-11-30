@@ -1,4 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
+  font-size: large;
+}
+
+body {
+  /* background: ;
+  color: ; */
+  background-color: #f0e9d2;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
 :root {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+}
+
+color-palette {
+  color: #f0e9d2;
+  color: #e6ddc4;
+  color: #678983;
+  color: #181d31;
+}
+
+.pallete-darker {
+  background-color: #181d31;
+  color: #e6ddc4;
+}
+
+.pallete-lighter {
+  background-color: #f0e9d2;
+  color: #678983;
 }

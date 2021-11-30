@@ -7,6 +7,8 @@ import { Card } from 'src/app/models/card.model';
   providedIn: 'root',
 })
 export class APIService {
+
+
   private baseUrl = 'http://localhost:5000';
 
   constructor(private httpClient: HttpClient) {}
@@ -34,7 +36,7 @@ export class APIService {
   
 
 
-  //seta a autorização 
+ 
   setAuthorization(auth: string) {
     this.authorization = 'Bearer ' + auth;
     localStorage.setItem('auth', this.authorization);
@@ -42,7 +44,7 @@ export class APIService {
   }
 
 
-  //reseta a autorização
+ 
   clearAuthorization() {
     this.authorization = '';
     localStorage.removeItem('auth');

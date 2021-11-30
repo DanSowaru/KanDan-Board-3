@@ -4,9 +4,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HolderComponent } from './holder/holder.component';
-import { ColumnComponent } from './holder/column/column.component';
-import { CardComponent } from './holder/column/card/card.component';
+import { BoardComponent } from './board/board.component';
+import { ColumnComponent } from './board/column/column.component';
+import { CardComponent } from './board/column/card/card.component';
 
 import { APIService } from './services/api.service';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +16,7 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    HolderComponent,
+    BoardComponent,
     ColumnComponent,
     CardComponent,
     LoginComponent,

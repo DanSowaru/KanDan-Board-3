@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HolderComponent } from './holder.component';
+import { BoardComponent } from './board.component';
 
 describe('HolderComponent', () => {
-  let component: HolderComponent;
-  let fixture: ComponentFixture<HolderComponent>;
+  let component: BoardComponent;
+  let fixture: ComponentFixture<BoardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HolderComponent ]
+      declarations: [ BoardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HolderComponent);
+    fixture = TestBed.createComponent(BoardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

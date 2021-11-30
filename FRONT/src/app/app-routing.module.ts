@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HolderComponent } from 'src/app/holder/holder.component';
+import { BoardComponent } from './board/board.component';
 import { LoginComponent } from './login/login.component';
 
 
@@ -8,7 +8,7 @@ import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent, pathMatch: 'full' },
-  { path: 'kanban', canActivate: [], component: HolderComponent },
+  { path: 'kanban-board', canActivate: [], component: BoardComponent },
   { path: '**', redirectTo: '/login' },
 ];
 

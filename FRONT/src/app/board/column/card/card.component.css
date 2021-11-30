@@ -1,0 +1,17 @@
+.card:hover {
+  transform: scale(1.01);
+  background: rgb(202, 202, 202);
+  box-shadow: 0px 15px 26px rgba(83, 82, 78, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  /* margin-top: 50px; */
+}
+
+input,
+textarea {
+  background-color: (0, 0, 0, 0.1);
+  border: none;
+}
