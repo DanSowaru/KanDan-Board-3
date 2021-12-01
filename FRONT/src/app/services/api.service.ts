@@ -9,14 +9,15 @@ import { Card } from 'src/app/models/card.model';
 export class APIService {
 
 
-  private baseUrl = 'http://localhost:5000';
+  // private baseUrl = 'http://localhost:5000';
+  private baseUrl = 'https://glaubs-kanban-backend.vercel.app';
+
 
   constructor(private httpClient: HttpClient) {}
 
   cards!: Card[];
 
 
-  //pega e captura o token JWT
   getToken(login: string, senha: string) {
     const url = this.baseUrl + '/login/';
     const msgBody = { login: login, senha: senha };
