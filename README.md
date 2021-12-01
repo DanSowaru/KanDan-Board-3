@@ -25,6 +25,10 @@ Tecnologias usadas na execução do projeto:
 
   <br>
 
+# Demo
+
+![Alt Text](https://github.com/Dan-Sowaru/KanDan-Board-3/blob/main/kanban.gif)
+
 # Autor
 
 Danilo Mota Soares
