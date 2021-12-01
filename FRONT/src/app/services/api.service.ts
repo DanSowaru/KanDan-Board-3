@@ -9,8 +9,7 @@ import { Card } from 'src/app/models/card.model';
 export class APIService {
 
 
-  // private baseUrl = 'http://localhost:5000';
-  private baseUrl = 'https://glaubs-kanban-backend.vercel.app';
+  private baseUrl = 'http://localhost:5000';
 
 
   constructor(private httpClient: HttpClient) {}
